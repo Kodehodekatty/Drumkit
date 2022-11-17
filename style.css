@@ -1,0 +1,35 @@
+.audioButton {
+  background-color: #f00;
+  height: 100px;
+  width: 300px;
+  font-size: 30px;
+  color: white;
+}
+
+.audioButton:hover {
+  scale: 90%;
+  animation-duration: 400ms;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#theBtn {
+  background-color: #6943ff;
+  height: 100px;
+  width: 300px;
+  font-size: 30px;
+}
+
+#theBtn:hover {
+  scale: 120%;
+  background-color: yellow;
+  border: 10px solid black;
+  font-size: 40px;
+}
